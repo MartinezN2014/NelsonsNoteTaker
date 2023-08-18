@@ -3,7 +3,7 @@ const express = require("express");
 
 //app uses express
 const app = express();
-const port = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001;
 
 //assk express to create a route for each file in the public folder
 app.use(express.static("public"));
